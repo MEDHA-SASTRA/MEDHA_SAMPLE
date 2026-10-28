@@ -77,7 +77,7 @@ const MANUALS = {
    added = "YYYY-MM-DD"; term only for Class 7. */
 const LESSONS = [
   { cls: 6, no: 1, title: "Algebraic Properties", topic: "Number System", image: "src/cards/number-system.svg", desc: "Properties and rules used in algebra", duration: "", demo: "src/Videos/Class_6/Class_6_Video1.mp4", added: "" },
-  { cls: 6, no: 2, title: "Number Pattern Detection", topic: "Algebra", image: "src/cards/algebra.svg", desc: "Finding and understanding patterns in numbers", duration: "", demo: "src/Videos/Class_6/Class_6_Video2.mp4", added: "" },
+  { cls: 6, no: 2, title: "Number Pattern Detection", topic: "Algebra", image: "src/cards/algebra.svg", desc: "Finding and understanding patterns in numbers", duration: "", demo: "src/Videos/Class_6/class_6_Video2.mp4", added: "" },
   { cls: 6, no: 3, title: "Length of the shapes", topic: "Geometry", image: "src/cards/geometry.svg", desc: "Finding the length and measurements of shapes", duration: "", demo: "src/Videos/Class_6/Class_6_Video3.mp4", added: "" },
   { cls: 6, no: 4, title: "Shape Pattern Detection", topic: "Mensuration", image: "src/cards/mensuration.svg", desc: "Finding and understanding patterns in shapes", duration: "", demo: "src/Videos/Class_6/Class_6_Video4.mp4", added: "" },
   
