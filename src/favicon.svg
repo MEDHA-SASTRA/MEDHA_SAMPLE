@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="medhaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2B3A9E"/>
+      <stop offset="100%" stop-color="#14206B"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#medhaGrad)"/>
+  <!-- Mathematical Summation Symbol ∑ -->
+  <path d="M46 16H18v5.5l11.5 10.5L18 42.5V48h28v-6H27.5l9.5-8.5-9.5-8.5H46V16z" fill="#FFFFFF"/>
+</svg>

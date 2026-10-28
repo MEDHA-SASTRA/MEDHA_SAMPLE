@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MEDHA Project – Mathematics Video Lessons &amp; GeoGebra Demos for Classes 6–9</title>
+<meta name="description" content="MEDHA: Mathematics Education through Digital and Human-centred AI. Chapter-wise Mathematics video lessons and GeoGebra demos for school students in Classes 6 to 9.">
+<script>(function(){var t=null;try{t=localStorage.getItem("medha-theme")}catch(e){}if(t!=="dark"&&t!=="light")t=(window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches)?"dark":"light";document.documentElement.setAttribute("data-theme",t)})();</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Nunito+Sans:wght@400;600;700;800;900&display=swap">
+<link rel="icon" type="image/svg+xml" href="src/favicon.svg">
+<link rel="alternate icon" type="image/png" href="src/favicon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="scrollProgress" class="scroll-progress" aria-hidden="true"></div>
+<div class="idband"><div class="wrap idrow">
+ <a class="idl" href="https://www.sastra.edu" target="_blank" rel="noopener" aria-label="SASTRA Deemed to be University"><img src="src/sastra-logo.png" alt="SASTRA Deemed to be University"></a>
+ <div class="idm"><b class="idname">MEDHA</b><span class="idexp">Mathematics Education through Digital and Human-centred AI</span><span class="idsrc">Srinivasa Ramanujan Centre</span><span class="idsrc">SASTRA Deemed University, Kumbakonam</span>
+  <div class="idmq"><div class="idmq-track"><span>Srinivasa Ramanujan Centre</span><span>SASTRA Deemed University, Kumbakonam</span><span aria-hidden="true">Srinivasa Ramanujan Centre</span><span aria-hidden="true">SASTRA Deemed University, Kumbakonam</span></div></div></div>
+ <div class="idr"><img src="src/tata-logo.png" alt="TATA"></div>
+</div></div>
+<header><div class="wrap bar">
+ <a class="brand" href="#home" aria-label="MEDHA Project home"><span class="logo" data-logo>MEDHA</span><span><b>MEDHA</b><small data-tagline></small></span></a>
+ <button id="themeBtn" type="button" aria-label="Switch to dark mode" aria-pressed="false" title="Switch to dark mode"><span aria-hidden="true">☾</span></button>
+ <button id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="nav">☰</button>
+ <nav id="nav" aria-label="Main"><span class="nav-indicator" id="navIndicator" aria-hidden="true"></span><a href="#home">Home</a><a href="#about">About MEDHA</a><a href="#lessons">Video Lessons</a><a href="#gallery">Workshops &amp; Gallery</a><a href="#contact">Contact Us</a></nav>
+</div></header>
+
+<main>
+<section class="hero" id="home"><div class="wrap">
+ <div>
+  <h1><span class="anim-explore">Explore Mathematics,</span> <span class="anim-discover">Discover with AI Tools!</span></h1>
+  <p class="lead">Empowering school students in Classes 6–9 to learn Mathematics through chapter-wise video lessons and interactive GeoGebra demonstrations.</p>
+  <p><a class="btn" href="#lessons">Explore Video Lessons</a> &nbsp; <a class="btn ghost" href="#about">About MEDHA</a></p>
+ </div>
+ 
+</div></section>
+
+<section id="about"><div class="wrap">
+ <h2>About MEDHA</h2>
+ <p class="lead" id="aboutIntro"></p>
+ <div class="grid about-grid" id="aboutGrid" style="margin-top:24px"></div>
+</div></section>
+
+<section id="lessons" class="alt"><div class="wrap">
+ <h2>Mathematics Video Lessons &amp; GeoGebra Demos</h2>
+ <p class="lead">Choose your class to see its chapters. Each chapter can have a GeoGebra manual and a demo video. Search by class, topic or chapter title.</p>
+ <div class="classes" id="classes"></div>
+ <div class="tools"><input type="search" id="q" placeholder="Search chapters, e.g. “triangles” or “Class 8”" aria-label="Search chapters"></div>
+ <div id="results" aria-live="polite"></div>
+
+ <h3 style="margin-top:44px">Recently added lessons</h3>
+ <div class="grid" id="recent"></div>
+</div></section>
+
+<section id="practice" class="practice-section" aria-labelledby="practice-heading"><div class="wrap practice-wrap">
+ <div class="practice-content">
+  <span class="practice-eyebrow">EXPLORE • EXPERIMENT • DISCOVER</span>
+  <h2 id="practice-heading" class="practice-title">Practice Mathematics<br class="practice-heading-br"> with GeoGebra</h2>
+  <p class="lead practice-desc">Discover mathematical ideas through interactive exploration. Experiment, test your ideas, and see mathematics come alive.</p>
+  <div class="practice-actions">
+   <a class="btn practice-btn" href="https://www.geogebra.org/calculator" target="_blank" rel="noopener noreferrer" id="geogebraPracticeBtn">Practice now</a>
+   <p class="practice-microcopy">Learn by doing. Discover the mathematics behind every idea.</p>
+  </div>
+ </div>
+ <div class="practice-media">
+  <div class="practice-frame">
+   <img src="src/geogebra-practice.png" alt="Students discovering and experimenting with geometry using GeoGebra" width="545" height="500" loading="lazy" class="practice-img">
+  </div>
+ </div>
+</div></section>
+
+<section id="gallery"><div class="wrap">
+ <h2>Our Workshops, Our Impact</h2>
+ <p class="lead">The MEDHA Project reaches mathematics teachers and students through workshops, group activities and hands-on learning.</p>
+ <div class="gal" id="gal" style="margin-top:24px"></div>
+</div></section>
+
+<section id="vision" class="alt"><div class="wrap">
+ <h2>Vision and Educational Impact</h2>
+ <div class="cgrid" id="visionGrid"></div>
+</div></section>
+
+<section id="contact"><div class="wrap">
+ <h2>Contact Us</h2>
+ <p class="lead">Reach the MEDHA team using the details below.</p>
+ <div class="cgrid" id="contactGrid" style="margin-top:20px"></div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+ <div><a class="brand" href="#home" style="color:#fff"><span class="logo" data-logo>MEDHA</span><span><b>MEDHA</b><small data-tagline style="color:#bfc8ff"></small></span></a>
+  <p style="max-width:34ch;font-size:.9rem" id="copy"></p></div>
+ <div class="fl"><b>Quick links</b><a href="#about">About MEDHA</a><a href="#lessons">Video Lessons</a><a href="#gallery">Workshops &amp; Gallery</a><a href="#contact">Contact Us</a></div>
+ <div class="fl" id="social"></div>
+</div></footer>
+
+<dialog id="dlg" aria-labelledby="dt"><div class="dh"><h3 id="dt"></h3><button class="x" id="dx" aria-label="Close">✕</button></div><div id="dm"></div><div class="dbody" id="dd"></div></dialog>
+
+<script src="script.js"></script>
+</body>
+</html>
